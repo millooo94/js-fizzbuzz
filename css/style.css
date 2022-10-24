@@ -69,6 +69,8 @@ h1 {
 
 button {
     border-radius: 20px;
+    color: white;
+    text-shadow: 2px 2px #294c60;
     background-color: #ff9633;
     position: absolute;
     top: 70px;
@@ -76,8 +78,5 @@ button {
 
 }
 
-.border {
-    border: 3px solid white;
-}
 
 
