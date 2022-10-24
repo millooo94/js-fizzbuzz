@@ -4,11 +4,6 @@ const eleButton = document.querySelector ('button');
 
 
 
-
-
-
-
-
 for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         eleSquares.innerHTML += `<div class="square fizzbuzz">FIZZBUZZ</div>`;
@@ -29,10 +24,6 @@ for (let i = 1; i <= 100; i++) {
 }
 
 
-
-
-
-
 eleTitle.addEventListener('click', function (){
     eleButton.classList.toggle('hidden')
 })
@@ -41,6 +32,8 @@ eleButton.addEventListener('click', function (){
     eleSquares.classList.toggle('hidden')
 })
 
+// let eleQuadrato = document.querySelectorAll('square')
+// eleQuadrato.style.display = 'none'
 
 
 

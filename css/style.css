@@ -52,6 +52,11 @@ h1 {
     background-color:darkred ;
 }
 
+
+.square.fizzbuzz:hover {
+    scale: 2;
+}
+
 .square.buzz {
     background-color:khaki ;
 }
@@ -77,6 +82,8 @@ button {
     right: 20px;
 
 }
+
+
 
 
 
